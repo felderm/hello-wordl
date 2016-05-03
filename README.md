@@ -1,3 +1,2 @@
-# hello-wordl
-Premier essai
-Coucou, j'aime le poney. 
+# hello-world
+Coucou, j'aime le poney et les licornes. 
