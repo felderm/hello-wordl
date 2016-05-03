@@ -1,0 +1,25 @@
+create a working copy of a local repository by running the command : git clone /path/to/repository
+when using a remote server, your command will be ; git clone username@host:/path/to/repository
+Working Directory which holds the actual files
+Index which acts as a staging area
+HEAD which points to the last commit you've made
+You can propose changes (add it to the Index) using : git add <filename> and git add * 
+changes in the head : git commit -m "Commit message"
+To send those changes to your remote repository, execute  : git push origin master
+If you have not cloned an existing repository and want to connect your repository to a remote server, you need to add it with
+git remote add origin <server>
+create a new branch named "feature_x" and switch to it using : git checkout -b feature_x   
+switch back to master : git checkout master
+delete the branch again : git branch -d feature_x
+a branch is not available to others unless you push the branch to your remote repository : git push origin <branch>
+
+
+
+
+
+
+
+
+
+
+           
