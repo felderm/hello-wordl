@@ -10,9 +10,8 @@ If you have not cloned an existing repository and want to connect your repositor
 git remote add origin <server>
 create a new branch named "feature_x" and switch to it using : git checkout -b feature_x   
 switch back to master : git checkout master
-delete the branch again : git branch -d feature_x
 a branch is not available to others unless you push the branch to your remote repository : git push origin <branch>
-
+****
 
 
 
